@@ -5,12 +5,14 @@ export default function Personal() {
     const [selectedPhoto, setSelectedPhoto] = useState(null);
 
     const photos = [
-        { src: '/ashrita-olivia-yosemite.jpeg', description: 'Description for photo 1' },
-        { src: '/cape-photo-stack.JPG', description: 'Description for photo 2' },
-        { src: '/chicago-photo.jpeg', description: 'Description for photo 3' },
-        { src: '/croatia.jpeg', description: 'Description for photo 4' },
-        { src: '/family-photo.jpeg', description: 'Description for photo 5' },
-        { src: '/Kappa%20Delta.jpg', description: 'Description for photo 6' },
+        { src: '/ashrita-olivia-yosemite.jpeg', description: 'My best friend and I visiting Yosemite National Park last ' +
+                'semester!' },
+        { src: '/cape-photo-stack.JPG', description: 'My friends and I at Cape Cod in October!' },
+        { src: '/chicago-photo.jpeg', description: 'Chicago! Love going to the city with my friends in the summer.' },
+        { src: '/croatia.jpeg', description: 'I studied abroad in London in my first semester of college, and one of the ' +
+                'trips my friends and I took was to Split, Croatia!' },
+        { src: '/family-photo.jpeg', description: 'My family and I in Yosemite! I have a little brother named Kieran.' },
+        { src: '/Kappa%20Delta.jpg', description: 'I rushed Kappa Delta this semester!' },
         { src: '/Kappa%20Delta.jpg', description: 'Description for photo 7' },
         { src: '/Kappa%20Delta.jpg', description: 'Description for photo 8' },
         { src: '/Kappa%20Delta.jpg', description: 'Description for photo 9' }
