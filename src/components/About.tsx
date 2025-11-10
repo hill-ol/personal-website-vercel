@@ -3,7 +3,7 @@ export default function About() {
         <section id="about" className="about-section">
             <div className="about-container">
                 <img src="/about-me.jpg" alt="About Me" />
-                <h2 className="section-title">Hi!</h2>
+                <h1 className="section-title">Hi!</h1>
                 <p className="about-text">
                     Hi! I'm Olivia, a second year Computer Science and Mathematics major at Northeastern University.
                     I'm from the Chicago suburbs.
