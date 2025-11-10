@@ -52,22 +52,22 @@ export default function Navbar() {
                         <div className="contact-info">
                             <div className="contact-item">
                                 <span className="contact-label">Email:</span>
-                                <a href="mailto:your.email@northeastern.edu" className="contact-link">
-                                    your.email@northeastern.edu
+                                <a href="mailto:hill.ol@northeastern.edu" className="contact-link">
+                                    hill.ol@northeastern.edu
                                 </a>
                             </div>
 
                             <div className="contact-item">
                                 <span className="contact-label">LinkedIn:</span>
-                                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="contact-link">
-                                    linkedin.com/in/yourprofile
+                                <a href="https://linkedin.com/in/olivia-hill0" target="_blank" rel="noopener noreferrer" className="contact-link">
+                                    linkedin.com/in/olivia-hill0
                                 </a>
                             </div>
 
                             <div className="contact-item">
                                 <span className="contact-label">GitHub:</span>
-                                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">
-                                    github.com/yourusername
+                                <a href="https://github.com/hill-ol" target="_blank" rel="noopener noreferrer" className="contact-link">
+                                    github.com/hill-ol
                                 </a>
                             </div>
                         </div>
