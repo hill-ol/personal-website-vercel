@@ -7,12 +7,12 @@ import Personal from './components/Personal'
 
 export default function App() {
     return (
-        <div className="app">
+        <>
             <Navbar />
             <About />
             <Academic />
             <Personal />
             <Contact />
-        </div>
+        </>
     );
 }
