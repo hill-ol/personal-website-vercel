@@ -119,7 +119,7 @@ a:hover {
 }
 
 body {
-  padding-top: 40px;
+  padding-top: 80px;
   margin: 0;
   display: flex;
   place-items: center;
@@ -164,9 +164,9 @@ button:focus-visible {
 }
 
 .about-section {
-  padding: 60px 20px;
+  padding: 0;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .about-flex-container {
@@ -175,10 +175,12 @@ button:focus-visible {
   display: flex;
   gap: 40px;
   align-items: center;
+  padding: 60px 40px;
 }
 
 .about-container {
   flex: 1;
+  padding: 20px;
 }
 
 .section-title {
@@ -186,6 +188,7 @@ button:focus-visible {
   font-size: 72px;
   margin-bottom: 20px;
   text-align: left;
+  color: #2B2B2B;
 
   /* Animation */
   opacity: 0;
@@ -216,11 +219,12 @@ button:focus-visible {
 
 .about-image-container {
   flex: 1;
+  padding: 20px;
 }
 
 .about-image-container img {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
   object-fit: cover;
   border-radius: 8px;
@@ -230,6 +234,7 @@ button:focus-visible {
 @media (max-width: 768px) {
   .about-flex-container {
     flex-direction: column;
+    padding: 40px 20px;
   }
 }
 
@@ -251,7 +256,6 @@ button:focus-visible {
   display: flex;
   gap: 40px;
   align-items: center;
-  /*add background coloring please*/
 }
 
 .academic-image-container {
@@ -267,7 +271,6 @@ button:focus-visible {
   display: flex;
   gap: 40px;
   align-items: center;
-  /*add background coloring please*/
 }
 
 .personal-photo {
