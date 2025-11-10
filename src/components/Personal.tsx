@@ -14,17 +14,19 @@ export default function Personal() {
                         I'm from the Chicago suburbs.
                     </p>
                 </div>
-                <div className="photo-grid">
+                <div className="personal-photo">
                     <h2 className="photo-album-title">Little Photo Album:</h2>
-                    <img src="/ashrita-olivia-yosemite.jpeg" alt="Two girls in Yosemite" />
-                    <img src="/cape-photo-stack.JPG" alt="Girls at cape" />
-                    <img src="/chicago-photo.jpeg" alt="Girls in Chicago" />
-                    <img src="/croatia.jpeg" alt="Croatia" />
-                    <img src="/family-photo.jpeg" alt="My family!" />
-                    <img src="/Kappa%20Delta.jpg" alt="My sorority" />
-                    <img src="/Kappa%20Delta.jpg" alt="My sorority" />
-                    <img src="/Kappa%20Delta.jpg" alt="My sorority" />
-                    <img src="/Kappa%20Delta.jpg" alt="My sorority" />
+                    <div className="photo-grid">
+                        <img src="/ashrita-olivia-yosemite.jpeg" alt="Two girls in Yosemite" />
+                        <img src="/cape-photo-stack.JPG" alt="Girls at cape" />
+                        <img src="/chicago-photo.jpeg" alt="Girls in Chicago" />
+                        <img src="/croatia.jpeg" alt="Croatia" />
+                        <img src="/family-photo.jpeg" alt="My family!" />
+                        <img src="/Kappa%20Delta.jpg" alt="My sorority" />
+                        <img src="/Kappa%20Delta.jpg" alt="My sorority" />
+                        <img src="/Kappa%20Delta.jpg" alt="My sorority" />
+                        <img src="/Kappa%20Delta.jpg" alt="My sorority" />
+                    </div>
                 </div>
             </div>
         </section>
