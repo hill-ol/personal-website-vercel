@@ -126,6 +126,7 @@ a:hover {
 }
 
 body {
+  padding: 20px;
   margin: 0;
   width: 100%;
   /*removed the padding from top... maybe will help ??*/
