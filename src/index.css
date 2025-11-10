@@ -171,6 +171,7 @@ button:focus-visible {
 }
 
 .about-flex-container {
+  width: 100%;
   background-color: #c4cda4;
   display: flex;
   gap: 40px;
@@ -247,6 +248,7 @@ button:focus-visible {
 }
 
 .academic-flex-container {
+  width: 100%;
   display: flex;
   gap: 40px;
   align-items: center;
@@ -262,6 +264,7 @@ button:focus-visible {
 }
 
 .personal-flex-container {
+  width: 100%;
   display: flex;
   gap: 40px;
   align-items: center;
