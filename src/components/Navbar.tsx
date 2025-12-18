@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './Navbar.css';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,8 @@ export default function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <div className="navbar-content">
-                        <div className="brand-logo">Olivia Hill</div>
+
+                        <button onClick={() => scrollToSection('about')} className="brand-logo">Olivia Hill</button>
 
                         <div className="desktop-menu">
                             <button onClick={() => scrollToSection('about')} className="nav-link">About Me</button>
