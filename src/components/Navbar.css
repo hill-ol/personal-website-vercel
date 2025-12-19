@@ -69,26 +69,27 @@
     width: 100%;
 }
 
-.nav-link.contact-button {
+.contact-button {
     background-color: transparent;
     border: 2px solid var(--antique-white);
     border-radius: 8px;
     padding: 8px 20px;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
     outline: none;
 }
 
-.nav-link.contact-button::after {
+.contact-button::after {
     display: none;
 }
 
-.nav-link.contact-button:hover {
-    background-color: var(--antique-white);
+.contact-button:hover {
     border-color: var(--antique-white);
     color: var(--pale-violet);
 }
 
-.nav-link.contact-button:focus {
+.contact-button:focus {
     outline: none;
     border: 2px solid var(--antique-white);
 }
