@@ -2,7 +2,7 @@
 
 My personal portfolio website showcasing my background as a Computer Science and Mathematics student at Northeastern University.
 
-## 🚀 Running Locally
+## Running Locally
 ```bash
 npm install
 npm run dev
@@ -10,17 +10,17 @@ npm run dev
 
 Open `http://localhost:5173` in your browser.
 
-## 📤 Deployment
+## Deployment
 
 Deployed on Vercel with automatic updates from the main branch.
 
-## 🛠️ Built With
+## Built With
 
 - React + Vite
 - TypeScript
 - CSS3
 
-## 📱 Sections
+## Sections
 
 - **About Me**: Introduction and background
 - **Academics**: Educational experience
