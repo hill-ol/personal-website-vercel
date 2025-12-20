@@ -44,7 +44,6 @@ export default function Navbar() {
                 </div>
             </nav>
 
-            {/* Contact Popup */}
             {showContactPopup && (
                 <div className="contact-modal-overlay" onClick={() => setShowContactPopup(false)}>
                     <div className="contact-modal-content" onClick={(e) => e.stopPropagation()}>

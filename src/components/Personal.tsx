@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './Personal.css';
 
 export default function Personal() {
 

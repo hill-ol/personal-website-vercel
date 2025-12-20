@@ -7,8 +7,8 @@ export default function About() {
                 <div className="about-container">
                     <h1 className="section-title">Hi!</h1>
                     <p className="about-text">
-                        Hi! I'm Olivia, a second year Computer Science and Mathematics major at Northeastern University.
-                        I'm from the Chicago suburbs.
+                        I'm Olivia, a second year Computer Science and Mathematics major at Northeastern University from the Chicago suburbs.
+                        Currently, I am interested in full-stack development and research! I appreciate both the ability to be creative, but also build concrete solutions using my programming abilities.
                     </p>
                 </div>
                 <div className="about-image-container">

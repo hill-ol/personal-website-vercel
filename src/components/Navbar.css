@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap');
+
 .navbar {
     position: fixed;
     top: 0;
@@ -28,6 +30,10 @@
     color: var(--antique-white);
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+.brand-logo:focus {
+    outline: none;
 }
 
 .desktop-menu {
@@ -67,6 +73,10 @@
 
 .nav-link:hover::after {
     width: 100%;
+}
+
+.nav-link:focus {
+    outline: none;
 }
 
 .contact-button {
@@ -120,7 +130,7 @@
 }
 
 .contact-modal-title {
-    font-family: 'Sacramento', cursive;
+    font-family: 'EB Garamond', serif;
     font-size: 56px;
     color: var(--licorice);
     margin-bottom: 35px;

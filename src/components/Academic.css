@@ -1,0 +1,47 @@
+.academic-section {
+    padding: 80px 60px;
+    background-color: var(--antique-white);
+}
+
+.academic-heading {
+    font-family: 'EB Garamond', serif;
+    font-size: 64px;
+    margin-bottom: 25px;
+    text-align: right;
+    margin-right: 30px;
+    color: var(--cappuccino);
+    line-height: 1.1;
+}
+
+.academic-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--cappuccino);
+    text-align: right;
+    margin-right: 30px;
+}
+
+.academic-flex-container {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.academic-image-container {
+    flex: 1;
+}
+
+.academic-image-container img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(30, 21, 28, 0.2);
+}
+
+.academic-container {
+    flex: 1;
+}

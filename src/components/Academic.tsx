@@ -1,3 +1,5 @@
+import './Academic.css';
+
 export default function Academic() {
     return (
         <section id="academic" className="academic-section">
