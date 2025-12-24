@@ -28,7 +28,7 @@ export default function Personal() {
     };
 
     return(
-        <section id="personal" className="personal-section">
+        <section id="extras" className="personal-section">
             <div className="personal-flex-container">
                 <div className="personal-container">
                     <h2 className="personal-heading">Outside of the classroom</h2>

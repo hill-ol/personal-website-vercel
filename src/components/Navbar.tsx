@@ -21,7 +21,7 @@ export default function Navbar() {
 
                         <div className="desktop-menu">
                             <button onClick={() => scrollToSection('about')} className="nav-link">About Me</button>
-                            <button onClick={() => scrollToSection('academics')} className="nav-link">Academics</button>
+                            <button onClick={() => scrollToSection('academic')} className="nav-link">Academics</button>
                             <button onClick={() => scrollToSection('extras')} className="nav-link">Extras!</button>
                             <button onClick={() => setShowContactPopup(true)} className="contact-button">Say Hi!</button>
                         </div>
