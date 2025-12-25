@@ -95,7 +95,7 @@
 }
 
 .contact-button:hover {
-    border-color: var(--antique-white);
+    border-color: var(--pale-violet);
     color: var(--pale-violet);
 }
 
